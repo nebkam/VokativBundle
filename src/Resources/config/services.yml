@@ -1,1 +1,3 @@
-
+vokativ.generator:
+    class: Nebkam\Vokativ\Generator
+    arguments: []
