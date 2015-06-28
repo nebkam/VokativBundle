@@ -5,7 +5,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Nebkam\\Vokativ\\": "src/"
+			"Nebkam\\Vokativ\\": "src"
 		}
 	}
 }
