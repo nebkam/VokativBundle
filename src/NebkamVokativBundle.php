@@ -1,6 +1,6 @@
 <?php
 
-namespace Nebkam\VokativBundle;
+namespace Nebkam\Vokativ;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
