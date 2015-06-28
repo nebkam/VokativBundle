@@ -12,6 +12,11 @@ Pozdrav, {{ user.name|vokativ }}
 * useful for adressing people by their **names**, although it should work on all nouns in Serbian
 * you don't have to worry about the gender of the noun, it should handle male and female nouns correctly
 
+## Install via Composer
+1. require `"nebkam/vokativ": "dev-master"` in your composer.json
+2. update Composer dependencies
+3. add `new Nebkam\Vokativ\NebkamVokativBundle()` to `$bundles` in app/AppKernel.php
+
 ## Keep in mind
 * the filter works on Serbian **Latin** input/output only
 * the filter does not try to correct your spelling (first letter uppercase on proper nouns and names etc.)
