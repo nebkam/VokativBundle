@@ -81,7 +81,7 @@ class Generator
 			$vokativ = substr_replace($nominativ, 'ž', -1).'e';
 			}
 		//ć, đ, č, dž, š, ž, lj, nj, j
-		elseif(mb_substr($nominativ, -1) == 'ć' || mb_substr($nominativ, -1) == 'đ' || mb_substr($nominativ, -1) == 'č' || mb_substr($nominativ, -2) == 'dž' || mb_substr($nominativ, -1) == 'š' || mb_substr($nominativ, -1) == 'ž' || mb_substr($nominativ, -2) == 'lj' || mb_substr($nominativ, -2) == 'nj' || mb_substr($nominativ, -1) == 'j')
+		elseif(mb_substr($nominativ, -1) == 'ć' || mb_substr($nominativ, -1) == 'đ' || mb_substr($nominativ, -1) == 'č' || mb_substr($nominativ, -2) == 'dž' || mb_substr($nominativ, -1) == 'ž' || mb_substr($nominativ, -2) == 'lj' || mb_substr($nominativ, -2) == 'nj' || mb_substr($nominativ, -1) == 'j')
 			{
 			$vokativ = $nominativ.'u';
 			}
