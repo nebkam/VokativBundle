@@ -1,4 +1,10 @@
 services:
-    nebkam_vokativ:
+    nebkam_vokativ.generator:
         class: Nebkam\Vokativ\Generator
         arguments: []
+
+    nebkam_vokativ.extension:
+        class: Nebkam\Vokativ\Twig\VokativExtension
+        arguments: [@nebkam_vokativ.generator]
+        tags:
+            - { name: twig.extension }
