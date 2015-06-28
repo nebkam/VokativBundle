@@ -1,5 +1,5 @@
 # VokativBundle
-Symfony 2 Twig filter - Serbian grammar helper for addressing people.
+Symfony 2 Twig filter for addressing people according to Serbian grammar
 
 Usage:
 ```twig
