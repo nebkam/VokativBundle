@@ -1,4 +1,4 @@
-vokativ:
-    generator:
+services:
+    nebkam_vokativ:
         class: Nebkam\Vokativ\Generator
         arguments: []
