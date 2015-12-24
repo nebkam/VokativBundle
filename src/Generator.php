@@ -232,9 +232,14 @@ class Generator
 		mb_internal_encoding("UTF-8");
 
 		$normalized = mb_strtolower($nominativ);
-		if (isset($this->suffixes[$normalized]))
+		if (array_key_exists($normalized,$this->suffixes))
 			{
-			if ($modify = $this->suffixes[$normalized])
+			$modify = $this->suffixes[$normalized];
+			if (is_null($modify))
+				{
+				return $nominativ;
+				}
+			else
 				{
 				$offset = $modify[0];
 				$suffix = $modify[1];
@@ -246,10 +251,6 @@ class Generator
 					{
 					return substr_replace($nominativ,$suffix,$offset);
 					}
-				}
-			else
-				{
-				return $nominativ;
 				}
 			}
 
