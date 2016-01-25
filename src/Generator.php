@@ -110,6 +110,7 @@ class Generator
 		'zorislava' => null,
 		'isidora' => null,
 		'ivka' => null,
+		'ines' => null,
 		'jagoda' => null,
 		'krunoslava' => null,
 		'leposava' => null,
