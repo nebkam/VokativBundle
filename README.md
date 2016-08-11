@@ -1,3 +1,6 @@
+# DEPRECATED #
+This bundle is now a part of [Avramovic/Vokativ](https://github.com/avramovic/Vokativ#symfony-bundle)
+
 # VokativBundle
 Symfony 2 Twig filter for addressing people according to Serbian grammar
 
